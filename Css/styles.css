@@ -130,13 +130,44 @@ a{
 .quote-text-container h3{
     display: inline-block;
     text-align: end;
-    padding-right: 20px;
+    padding-right: 30px;
     font-size: 24px;
 }
 
 .quote-text{
     font-size: 36px;
     font-style: italic;
+}
+
+.product-signup-contaner{
+    padding: 90px 0;
+    
+}
+
+.product-signup{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+.product-sell p{
+    margin-top: 5px;
+}
+
+.product-signup-button{
+    background: none;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 footer{
